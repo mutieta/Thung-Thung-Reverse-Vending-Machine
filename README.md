@@ -68,7 +68,7 @@ User presses "Stop Session" and views summary (total plastics, cans, rejected it
 → **Option A**: Scan the QR code to claim reward points via mobile app  
 → **Option B**: Walk away without claiming (no login required)
 
-⏱ *Processing time: seconds per item | No pre-registration needed*
+*Processing time: seconds per item | No pre-registration needed*
 
 ## Demo
 Watch the full machine in action here: [YouTube Demo Link]
