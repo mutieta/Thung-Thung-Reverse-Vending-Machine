@@ -76,7 +76,7 @@ Watch the full machine in action here: [YouTube Demo Link]
 ## Getting Started
 To set up this project on your own Raspberry Pi:
 
-1. Clone the repository: `git clone https://github.com/your-username/Thung-Thung-Reverse-Vending-Machine.git`
+1. Clone the repository: `git clone https://github.com/mutieta/Thung-Thung-Reverse-Vending-Machine`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Install hardware libraries for Raspberry Pi (RPi.GPIO, adafruit-servokit, neopixel, HX711)
 4. Create a `.env` file with your configuration (BASE_URL, PI_SECRET, BIN_ID)
