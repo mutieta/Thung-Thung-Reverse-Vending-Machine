@@ -71,7 +71,7 @@ User presses "Stop Session" and views summary (total plastics, cans, rejected it
 *Processing time: seconds per item | No pre-registration needed*
 
 ## Demo
-Watch the full machine in action here: [YouTube Demo Link]
+Watch the full machine in action here: [YouTube Demo Link](https://youtu.be/_pXsI6E50Y4)
 
 ## Getting Started
 To set up this project on your own Raspberry Pi:
