@@ -19,8 +19,10 @@ This repository covers the entire structure, including:
 ## Dataset for Trash Classification
 The dataset for the Thung Thung Reverse Vending Machine (RVM) consists of 2,280 total images, specifically constructed to reflect the Cambodian context by focusing on local plastic bottle and aluminum can brands. To ensure the machine accurately distinguishes recyclables, we included 500 "Non-target" objects as an "Other" class, which allows the RVM to identify and reject non-recyclable waste. To increase variety and model robustness , the training set underwent for data augmentation, including rotations, horizontal and vertical flips, a 20% random zoom, and adjustments to brightness, to ensure the model remains accurate under the various lighting conditions inside the machine.
 
-![Data Collection](assets/can-image.jpg)
-![Data Collection](assets/plastic-image.jpg)
+<p align="center">
+  <img src="assets/can-image.jpg" width="45%" />
+  <img src="assets/plastic-image.jpg" width="45%" />
+</p>
 
 ## Training Process
 We trained our AI model using MobileNetV2, a compact neural network optimized for Raspberry Pi. Training happened in two phases: first, we froze the base model and trained only the classification head for 10 epochs (Adam optimizer, lr=1e-4) to recognize our three categories. Then, we unfroze the last 50 layers and fine-tuned for another 10 epochs (lr=1e-5) to adapt specifically to Cambodian bottles and cans. We used 224x224 images, batch size 32, 0.5 dropout, and early stopping callbacks. The final model was converted to TFLite (fp32) format for efficient inference on our Raspberry Pi.
