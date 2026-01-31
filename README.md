@@ -94,3 +94,5 @@ This project was developed by RUPP students for the E-Gen Competition:
 - **Chhoun Oudom** - [@github-username](https://github.com/github-username)
 - **An Srey Pov** - [@github-username](https://github.com/github-username)
 
+## License
+This project is licensed under the MIT License.
