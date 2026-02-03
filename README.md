@@ -20,8 +20,7 @@ This repository covers the entire structure, including:
 The dataset for the Thung Thung Reverse Vending Machine (RVM) consists of 2,280 total images, specifically constructed to reflect the Cambodian context by focusing on local plastic bottle and aluminum can brands. To ensure the machine accurately distinguishes recyclables, we included 500 "Non-target" objects as an "Other" class, which allows the RVM to identify and reject non-recyclable waste. To increase variety and model robustness , the training set underwent for data augmentation, including rotations, horizontal and vertical flips, a 20% random zoom, and adjustments to brightness, to ensure the model remains accurate under the various lighting conditions inside the machine.
 
 <p align="center">
-  <img src="assets/can-image.jpg" width="45%" />
-  <img src="assets/plastic-image.jpg" width="45%" />
+  <img src="assets/dataset.png" />
 </p>
 
 ## Training Process
