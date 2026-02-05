@@ -91,8 +91,8 @@ This project was developed by RUPP students for the E-Gen Competition:
 - **Sanna Nan** - [@mutieta](https://github.com/mutieta)
 - **Ly Buntheng** - [@Newbieinthearea](https://github.com/Newbieinthearea)
 - **Oum Chansopheak** - [@sopheakchan](https://github.com/sopheakchan)
-- **Chhoun Oudom** - [@github-username](https://github.com/github-username)
-- **An Srey Pov** - [@github-username](https://github.com/github-username)
+- **Chhoun Oudom** - [@chhounoudom59-crypto](https://github.com/chhounoudom59-crypto)
+- **An Srey Pov** - [@Srey-Pov](https://github.com/Srey-Pov)
 
 ## License
 This project is licensed under the MIT License.
